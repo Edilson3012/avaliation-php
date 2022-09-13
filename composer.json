@@ -9,12 +9,14 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
+        "appslabke/lara-izitoast": "^1.1",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "uxweb/sweet-alert": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -39,7 +41,10 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "LaravelFrontendPresets\\PaperPreset\\": "presets/paper/src"
-        }
+        },
+        "files": [
+            "app/helpers/Formatting.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

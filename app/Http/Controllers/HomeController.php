@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Delivery;
+
 class HomeController extends Controller
 {
     /**
@@ -21,6 +23,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('pages.dashboard');
+        $countDeliveries = count(Delivery::all());
+        return view('pages.dashboard', [
+            'countDeliveries' => $countDeliveries
+        ]);
     }
 }

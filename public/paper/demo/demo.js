@@ -398,12 +398,15 @@ demo = {
     marker.setMap(map);
   },
 
-  showNotification: function(from, align) {
+  showNotification: function(from, align, messages = null) {
     color = 'primary';
+    if(messages == null){
+        message: "Welcome to <b>Paper Dashboard</b> - a beautiful bootstrap dashboard for every web developer.";
+    }
 
     $.notify({
       icon: "nc-icon nc-bell-55",
-      message: "Welcome to <b>Paper Dashboard</b> - a beautiful bootstrap dashboard for every web developer."
+      message: messages
 
     }, {
       type: color,

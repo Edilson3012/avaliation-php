@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         LaravelFrontendPresets\PaperPreset\PaperPresetServiceProvider::class,
+        LaraIzitoast\LaraIzitoastServiceProvider::class,
 
         /*
          * Package Service Providers...
