@@ -45,7 +45,7 @@
                 <div class="col-lg-4 col-md-6 mr-auto">
                     <div class="card card-signup text-center">
                         <div class="card-header ">
-                            <h4 class="card-title">{{ __('Register') }}</h4>
+                            <h4 class="card-title">{{ __('rrr') }}</h4>
                             <div class="social">
                                 <button class="btn btn-icon btn-round btn-twitter">
                                     <i class="fa fa-twitter"></i>
@@ -136,7 +136,7 @@
                 </div>
              </div>
         </div>
-     </div> 
+     </div>
 @endsection
 
 @push('scripts')
